@@ -1,0 +1,13 @@
+{
+  "name": "apt-simulation-framework",
+  "version": "1.0.0",
+  "description": "APT Attack and Defense Simulation Framework",
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "dev": "npx concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
